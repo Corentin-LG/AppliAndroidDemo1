@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GestionClient2023MIN2</string>
+    <string name="client_last_name">Nom</string>
+    <string name="add_button">Ajouter</string>
+    <string name="client_gender">Sexe</string>
+    <string name="gender_man">Homme</string>
+    <string name="gender_woman">Femme</string>
+    <string name="level_advanced">Avancé</string>
+    <string name="add_client_mesage_success">Client %1$s ajouté !</string>
+    <string-array name="levels">
+        <item>Debutant</item>
+        <item>Intermédiaire</item>
+        <item>@string/level_advanced</item>
+    </string-array>
+
+</resources>
