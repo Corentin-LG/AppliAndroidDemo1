@@ -6,12 +6,19 @@
     android:layout_height="match_parent"
     android:gravity="center_vertical"
     android:layout_margin="8dp"
-    tools:context=".HomeActivity">
+    tools:context=".HomeActivity"
+    android:orientation="vertical">
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/home_add_button"
         android:text="Ajouter un client"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_list_button"
+        android:text="Lister les clients"
         />
 
 </LinearLayout>
